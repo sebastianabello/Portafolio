@@ -1,0 +1,271 @@
+@import url('https://fonts.cdnfonts.com/css/strawberry-shortcake-new');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Strawberry Shortcake NEW', sans-serif;                                                
+  }
+  
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  /* Estilos para el encabezado */
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 680px;
+    background-color:#cd8c52;
+  }
+  
+.logo img {
+    max-width: 130px;
+    height: auto;
+    position: relative;
+    left: 100px;
+  }
+  
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5e3929;
+    border: 5px solid #000000;
+    border-radius: 40px;
+    padding: 3px;
+  }
+  
+.links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 100px;
+    gap: 30px;
+  }
+  
+.link {
+    text-decoration: none;
+    color: #b7d1a3;
+    font-size: 25px;
+  }
+  
+.link:hover {
+        color: #fcf7d3;
+    }
+    
+.hero__main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b7d1a3;
+    border: 5px solid #000000;
+    border-radius: 24px;
+    position: relative;
+    top: 35px;
+    }
+  
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+  }
+
+  .title {
+    display:flex;
+    margin: 24px;
+    position: relative;
+    left: 70px;
+    font-size: 60px;
+  }
+  
+.title--active {
+    color: #cd8c52;
+  }
+  
+.description {
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+  }
+  
+.description--active {
+    color: #cd8c52;
+  }
+  
+.mockup {
+    max-width: 23%;
+    position: relative;
+    right: 45px;
+    height: auto;
+  }
+
+  /* Estilos para la sección "Acerca de mí" */
+.about {
+    display: flex;
+    background-color: #dee8be;
+    border-top: 6px solid #000000;
+    border-bottom: 6px solid #000000;
+    padding: 10px;
+    height: 330px;
+  }
+  
+.about__title {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+.about__description {
+    font-size: 23px;
+    text-align: left;
+  }
+
+.link-uni {
+    text-decoration: none;
+    color: #5e3929;
+    font-size: 25px;
+  }
+  
+.link-uni:hover {
+    color: #cd8c52;
+    }
+
+  /* Estilos para la sección "Habilidades" */
+.skills {
+    background-color: #fcf7d3;
+    height: auto;
+    width: 100%;
+    border-bottom: 6px solid #000000;
+  }
+
+.subtitle {
+        font-size: 55px;
+        text-align: center;
+        color: #000000;
+        background: #9c5c40;
+        border-bottom: 7px solid #000000;
+        border-left: 7px solid #000000;
+        border-right: 7px solid #000000;        
+        border-radius: 0px 0px 150px 150px;
+    }
+
+.container-cards {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 40px;
+  }
+
+.skills__tems {
+    background: #cd8c52;
+    padding: 20px;
+    border: 5px solid #000000;
+    border-radius: 35px;
+    width: 400px;
+    height: auto;
+  }
+
+.skills__subtitle {
+    background: #b7d1a3;
+    padding: 10px;
+    margin: 10px 0px 30px 0px;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;      
+  }
+
+.cards {
+    display: flex;
+    width: 180px;
+    height: auto;
+    background: #fcf7d3;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.skills__tems img {
+    max-width: 70px;
+    height: 70px;
+  }
+
+.cards__text {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para la sección Proyectos*/
+.container__projects {
+    background-color: #cd8c52;
+    padding: 0px;
+    text-align: center;
+
+  }
+  
+.title__projects {
+    font-size: 55px;
+    color: #000000;
+    background: #9c5c40;
+    border-bottom: 7px solid #000000;
+    border-left: 7px solid #000000;
+    border-right: 7px solid #000000;        
+    border-radius: 0px 0px 150px 150px;
+  }
+  
+.projects__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+.projects__cards {
+    text-align: center;
+  }
+  
+.projects__cards img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  /*pie de página*/
+.footer {
+    background-color: #b7d1a3;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+  }
+  
+.title__footer {
+    font-size: 55px;
+    color: #000000;
+    background: #9c5c40;
+    border: 7px solid #000000;        
+    border-radius: 0px 0px 150px 150px;
+  }
+  
+.description__footer {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+    height: auto;
+    font-size: 24px;
+  }
+  
+.icons {
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+  }
